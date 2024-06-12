@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/home/mosdon/Desktop/berke/build/src",
+  "command": "/usr/bin/c++  -I/home/mosdon/Desktop/berke/external -g -o CMakeFiles/gpx-graph.dir/main.cpp.o -c /home/mosdon/Desktop/berke/src/main.cpp",
+  "file": "/home/mosdon/Desktop/berke/src/main.cpp",
+  "output": "src/CMakeFiles/gpx-graph.dir/main.cpp.o"
+}
+]
