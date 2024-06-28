@@ -55,7 +55,7 @@
 				{
 					"directoryIndex" : 1,
 					"id" : "gpx-graph::@145eef247bfb46b6828c",
-					"jsonFile" : "target-gpx-graph-Debug-e82d0a9eff4ed98a38bc.json",
+					"jsonFile" : "target-gpx-graph-Debug-557b049d93147299346e.json",
 					"name" : "gpx-graph",
 					"projectIndex" : 0
 				}
@@ -65,8 +65,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/home/mosdon/Desktop/berke/build",
-		"source" : "/home/mosdon/Desktop/berke"
+		"build" : "/home/mosdon/Desktop/berke/gpx-draw/build",
+		"source" : "/home/mosdon/Desktop/berke/gpx-draw"
 	},
 	"version" : 
 	{

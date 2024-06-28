@@ -70,7 +70,7 @@ int main(int argc, char** argv){
     }
 
 
-json jPoints;
+  json jPoints;
     for (const auto& pt : points) {
         json jPoint;
         jPoint["lat"] = pt.lat;
@@ -82,9 +82,8 @@ json jPoints;
 
     ofstream outputFile("gpxoutput.json");
     outputFile << jPoints.dump(4); 
-    cout << "JSON dosyası oluşturuldu: gpxoutput.json" << endl;             
+    cout << "JSON dosyası oluşturuldu: gpxoutput.json" << endl;        
 
-    
     return 0;
 
 }

@@ -1,5 +1,5 @@
-/home/mosdon/Desktop/berke/build/CMakeFiles/edit_cache.dir
-/home/mosdon/Desktop/berke/build/CMakeFiles/rebuild_cache.dir
-/home/mosdon/Desktop/berke/build/src/CMakeFiles/gpx-graph.dir
-/home/mosdon/Desktop/berke/build/src/CMakeFiles/edit_cache.dir
-/home/mosdon/Desktop/berke/build/src/CMakeFiles/rebuild_cache.dir
+/home/mosdon/Desktop/berke/gpx-draw/build/CMakeFiles/edit_cache.dir
+/home/mosdon/Desktop/berke/gpx-draw/build/CMakeFiles/rebuild_cache.dir
+/home/mosdon/Desktop/berke/gpx-draw/build/src/CMakeFiles/gpx-graph.dir
+/home/mosdon/Desktop/berke/gpx-draw/build/src/CMakeFiles/edit_cache.dir
+/home/mosdon/Desktop/berke/gpx-draw/build/src/CMakeFiles/rebuild_cache.dir
