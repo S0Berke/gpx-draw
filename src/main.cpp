@@ -1,3 +1,13 @@
+/**
+ * 
+ * dependency order
+ * 
+ * 1. our own headers
+ * 2. 3rd partys
+ * 3. cpp level
+ * 4. c level
+ * 5. os level
+ */
 #include <rapidxml.hpp>
 #include <nlohmann/json.hpp>
 
@@ -8,13 +18,13 @@
 using namespace std;
 
 using namespace rapidxml;
+using namespace nlohmann;
 
-using json = nlohmann::json;
-
-struct Point {
+struct Point final {
     double lat;
     double lon;
     double ele;
+    
     string time;
 };
 
@@ -48,20 +58,16 @@ int main(int argc, char** argv){
 
                 
                 xml_node<>* eleNode = trkptNode->first_node("ele");
-                if (eleNode) {
+                if (eleNode) 
                     pt.ele = std::stod(eleNode->value());
-                } else {
-                    
+                else 
                     pt.ele = 0.0;
-                }
-
+   
                 xml_node<>* timeNode = trkptNode->first_node("time");
-                if (timeNode) {
+                if (timeNode) 
                     pt.time = timeNode->value();
-                } else {
-                    
+                else
                     pt.time = ""; 
-                }
 
 
                 points.push_back(pt);
